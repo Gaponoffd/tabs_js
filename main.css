@@ -1,0 +1,45 @@
+/* default */
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+/* style */
+
+.list{
+    display: flex;
+}
+.button.active, .button:hover{
+    background-color: teal;
+}
+.description-list{
+    margin-top: 40px;
+}
+.description-item{
+    width: 400px;
+    height: 60px;
+    display: none;
+}
+.description-item.active{
+    display: block;
+}
+
+.description-item:nth-child(1){
+    background-color: chartreuse;
+}
+.description-item:nth-child(2){
+    background-color: green;
+}
+.description-item:nth-child(3){
+    background-color: khaki;
+}
+.description-item:nth-child(4){
+    background-color: mediumseagreen;
+}
